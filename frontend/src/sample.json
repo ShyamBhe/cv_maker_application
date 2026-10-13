@@ -1,0 +1,266 @@
+{
+ "name": "Shyam Bhetuwal",
+ "title": "Software & AI Engineer",
+ "email": "shyambhetuwal254@gmail.com",
+ "phone": "0453519888",
+ "website": "rshyambportfolio.netlify.app",
+ "linkedin": "linkedin.com/in/rshyamvetwal",
+ "template": "sidebar",
+ "color": "#5b9ac6",
+ "font": "sans",
+ "sections": [
+  {
+   "title": "Profile",
+   "kind": "text",
+   "text": "AI & Software Engineer with 8+ years in Finland, experienced in building production-ready AI systems that integrate machine learning, LLMs and Generative AI into real-world applications. Proven ability to design scalable AI pipelines, connect AI models to external data sources (aligned with Model Context Protocol principles) and deploy cloud-native solutions on AWS and Azure. Strong software engineering foundation combined with hands-on experience in MLOps, responsible AI practices and cross-functional delivery.",
+   "items": []
+  },
+  {
+   "title": "Employment",
+   "kind": "entries",
+   "text": "",
+   "items": [
+    {
+     "title": "LEAD SOFTWARE & AI ENGINEER (project research and development)",
+     "subtitle": "University of Turku, Turku",
+     "period": "02/2024 - 12/2025",
+     "bullets": [
+      "Led the development of a novel automated AI-powered machine vision system for food detection and nutritional analysis. Published in GCAIOT 2025 conference. Link https://ieeexplore.ieee.org/document/11275545",
+      "Designed and deployed **end-to-end AI pipelines**, integrating models (Deep learning, CNN, LLMs) using **openCV, PyTorch, pathlib, TensorFlow** etc.",
+      "Built scalable backend services using **FastAPI and WebSockets** for real-time data processing, analysis and correction for multiple modular pipelines.",
+      "Developed full-stack system **(React + PostgreSQL)** supporting **Admins, Researchers, and End Users** with integrated **scale, camera and menu data**.",
+      "Automated **data collection, re-correction, and analysis**, improving efficiency.",
+      "Direct AI based result was recorrected using scaled weight and menu based correction so the error was reduced and **accuracy was over 80%**.",
+      "Applied **Scikit-learn, Pandas, Numpy** etc. for data preprocessing, evaluation and model optimization.",
+      "Accepted overall **3 papers** from the project (**Lead Author of 2 papers**)"
+     ],
+     "level": 3
+    },
+    {
+     "title": "GIANT LEAP SUMMER PROJECT Trainee",
+     "subtitle": "Vaisala Oyj, Vantaa",
+     "period": "05/2023 - 08/2023",
+     "bullets": [
+      "Completed the pilot project using React, Typescript, APIs, Git, Jira, C#.",
+      "Evaluated the required technologies to develop the web-based solution for company's old testing application."
+     ],
+     "level": 3
+    },
+    {
+     "title": "FREELANCE FULL STACK DEVELOPER",
+     "subtitle": "Client Based Consulting Company",
+     "period": "12/2021 - 04/2023",
+     "bullets": [
+      "Developed projects with React, Redux, Material UI, Python, Fast API, Rest API, Node.js, C#, Scrum, SQL, Flask, Django, Express, Ms Azure, AWS etc.",
+      "Worked for multiple ecommerce projects for the clients/customers.",
+      "Completed and updated the project according to team's and client's feedback."
+     ],
+     "level": 3
+    },
+    {
+     "title": "RESEARCH AND DEVELOPMENT Trainee",
+     "subtitle": "Oulu University Of Applied Sciences, Oulu",
+     "period": "05/2021 - 08/2021",
+     "bullets": [
+      "Researched ways to figure out solution for the student's project platform.",
+      "Developed a Web Application with better User Interface in React."
+     ],
+     "level": 3
+    },
+    {
+     "title": "PROJECT TRAINEE",
+     "subtitle": "Technological University Dublin, Remote",
+     "period": "10/2020 - 01/2021",
+     "bullets": [
+      "Worked in a multicultural team in a project to digitalize classroom.",
+      "Developed the android app for further digitalization of classroom (Using Java, React, Rest APIs) and completed the testing and prepared the required document."
+     ],
+     "level": 3
+    },
+    {
+     "title": "SOFTWARE DEVELOPER TRAINEE",
+     "subtitle": "Piimega Oy, Oulu",
+     "period": "11/2019 - 04/2020",
+     "bullets": [
+      "Added new features and refactored codes in running ERP application.",
+      "Worked with C#, .NET, React, SQL, Agile process, Jira, SVN, MS Excel."
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "title": "Education",
+   "kind": "entries",
+   "text": "",
+   "items": [
+    {
+     "title": "MASTER OF SCIENCE IN INFORMATION TECHNOLOGY",
+     "subtitle": "University Of Turku, Turku, Finland",
+     "period": "09/2023 - 10/2025",
+     "bullets": [
+      "Key Coursework: Advanced Software Engineering, AI and Machine Learning, Data analysis, Deep learning, Pattern recognition, Agile Methodologies, Software Design and Architecture, AI in software, Security in software engineering.",
+      "Thesis: Business Finland funded project, built an automated AI powered platform for real-time food data collection, re-correction and analysis. Graded: 5/5."
+     ],
+     "level": 3
+    },
+    {
+     "title": "BACHELOR OF ENGINEERING IN INFORMATION TECHNOLOGY",
+     "subtitle": "Oulu University of Applied Sciences, Oulu, Finland",
+     "period": "09/2018 - 06/2022",
+     "bullets": [
+      "Full Stack development, IOT systems (React, Node, Express, .Net, C#, FastAPI, CI/CD).",
+      "Database management systems (MySQL, MongoDB, MS SQL), Cloud technology, Data Science, Privacy and Security, Linux OS, Software Testing.",
+      "Thesis on IoT based system for data collection and analysis using OpenCV, PyTorch, tensorflow, numpy, pandas. Grade 4 out of 5."
+     ],
+     "level": 3
+    }
+   ]
+  },
+  {
+   "title": "Skills",
+   "kind": "skills",
+   "text": "",
+   "items": [
+    {
+     "title": "Python",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "JavaScript",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "TypeScript",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "Applied AI & Generative AI",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Computer Vision (Pillow, OpenCV, scikit-image)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Deep Learning (PyTorch, TensorFlow, CNNs)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Server side Development (Node, FastAPI, Django, Express)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "UI Development (React, Redux, Material UI)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Agile tools (Scrum, Jira)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "AI tools (OpenAI, Claude, Gemini, Meta)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "APIs (REST, GraphQL, WebSockets)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Version Control tools (Git, GitLab, SVN)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 5
+    },
+    {
+     "title": "Cloud Technologies (AWS, Google cloud, Ms Azure)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "Databases (SQL, PostgreSQL, MongoDB)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "Internet Of Things",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "DevOps Methods and tools (CI/CD, Jenkins, Docker)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "Data Analysis (Pandas, Numpy, Scikit-learn)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 4
+    },
+    {
+     "title": "Other (Java, C, C++, PHP, Haskell)",
+     "subtitle": "",
+     "period": "",
+     "bullets": [],
+     "level": 2
+    }
+   ]
+  },
+  {
+   "title": "Languages",
+   "kind": "list",
+   "text": "English\nHindi\nSanskrit\nFinnish",
+   "items": []
+  },
+  {
+   "title": "References",
+   "kind": "text",
+   "text": "References available upon request.",
+   "items": []
+  }
+ ]
+}
