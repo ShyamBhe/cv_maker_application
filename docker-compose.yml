@@ -1,0 +1,23 @@
+# For a VPS: set values in a .env file next to this file, then `docker compose up -d --build`
+services:
+  app:
+    build: .
+    restart: always
+    environment:
+      JWT_SECRET: ${JWT_SECRET}
+      ADMIN_EMAIL: ${ADMIN_EMAIL}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD}
+      DATABASE_URL: postgresql://cv:${DB_PASSWORD}@db:5432/cv
+    depends_on: [db]
+  db:
+    image: postgres:16
+    restart: always
+    environment: { POSTGRES_USER: cv, POSTGRES_PASSWORD: "${DB_PASSWORD}", POSTGRES_DB: cv }
+    volumes: [dbdata:/var/lib/postgresql/data]
+  caddy:   # automatic HTTPS
+    image: caddy:2
+    restart: always
+    ports: ["80:80", "443:443"]
+    volumes: ["./Caddyfile:/etc/caddy/Caddyfile", "caddydata:/data"]
+    depends_on: [app]
+volumes: { dbdata: {}, caddydata: {} }

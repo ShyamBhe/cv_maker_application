@@ -1,0 +1,12 @@
+# Free Render web service. Data lives in an EXTERNAL free Postgres (set DATABASE_URL), because
+# Render's free web disk is wiped on every restart.
+services:
+  - type: web
+    name: cv-maker
+    runtime: docker
+    plan: free
+    envVars:
+      - { key: JWT_SECRET, generateValue: true }
+      - { key: ADMIN_EMAIL, sync: false }
+      - { key: ADMIN_PASSWORD, sync: false }
+      - { key: DATABASE_URL, sync: false }

@@ -1,0 +1,26 @@
+
+# Node.js dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local database
+backend/cv.db
+
+# macOS
+.DS_Store
