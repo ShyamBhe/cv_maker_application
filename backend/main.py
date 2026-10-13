@@ -52,9 +52,21 @@ app = FastAPI(title="CV Maker", docs_url=None if PROD else "/docs", redoc_url=No
 @app.middleware("http")
 async def security_headers(req, call_next):
     r = await call_next(req)
-    r.headers.update({"X-Content-Type-Options": "nosniff", "X-Frame-Options": "DENY", "Referrer-Policy": "no-referrer",
-                      "Strict-Transport-Security": "max-age=31536000",
-                      "Content-Security-Policy": "default-src 'self'; style-src 'self' 'unsafe-inline'; frame-src 'self' blob:; frame-ancestors 'none'"
+
+    if PROD:
+        r.headers.update({
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "DENY",
+            "Referrer-Policy": "no-referrer",
+            "Strict-Transport-Security": "max-age=31536000",
+            "Content-Security-Policy": (
+                "default-src 'self'; "
+                "style-src 'self' 'unsafe-inline'; "
+                "frame-src 'self' blob:; "
+                "frame-ancestors 'none'"
+            ),
+        })
+
     return r
 
 def client_ip(req: Request) -> str:  # behind one trusted proxy (Caddy/Render) the last hop is the real client
