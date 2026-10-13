@@ -1,4 +1,4 @@
-
+```gitignore
 # Node.js dependencies
 node_modules/
 frontend/node_modules/
@@ -13,14 +13,17 @@ __pycache__/
 *.py[cod]
 .venv/
 venv/
+backend/__pycache__/
 
 # Environment variables and secrets
 .env
 .env.*
 !.env.example
+backend/.env
 
 # Local database
 backend/cv.db
 
 # macOS
 .DS_Store
+```
