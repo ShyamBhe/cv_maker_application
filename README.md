@@ -1,4 +1,7 @@
-# CV Maker (FastAPI + React/TypeScript)
+# CV Maker (FastAPI + React)
+CV Maker (FastAPI + React/TypeScript)
+
+Live Demo: https://cv-maker-application.onrender.com/
 
 ## Local development
 Backend:  cd backend && pip install -r requirements.txt
@@ -19,3 +22,4 @@ One Docker image serves the API and the UI (see Dockerfile).
    paste the Postgres connection string as DATABASE_URL.
 
 Note: after updating, run `pip install -r backend/requirements.txt` again (PDF import needs pdfminer.six and python-multipart).
+
